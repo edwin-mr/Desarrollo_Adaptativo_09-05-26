@@ -2,7 +2,7 @@ namespace WebApplication1.ADO.NET.DAL.Repositories;
 using Microsoft.Data.SqlClient;
 public class SqlConnection()
 {
-     private string servidor;
+    private string servidor;
     private string baseDatos;
 
     public ConexionBD(string servidor, string baseDatos)
